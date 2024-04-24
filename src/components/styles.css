@@ -1,0 +1,64 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  font-weight: 700;
+  /* height: 6vh; */
+}
+.navbar .right {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.navbar .right select {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-weight: 700;
+}
+.navbar .right div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 45%; */
+}
+
+.navbar .right span.heart {
+  font-size: 30px;
+}
+.header {
+  padding: 35px;
+  background-color: lightgrey;
+  margin: 30px;
+}
+.header .box {
+  display: flex;
+  justify-content: space-between;
+}
+.header .box input {
+  width: 90%;
+  padding: 5px;
+  border: none;
+  outline: none;
+}
+.header .box button {
+  padding: 3px 15px;
+  border: none;
+}
+.populer .col .card .card-body .card-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.populer .col .card button,
+.navbar .left,
+.navbar .right div,
+.navbar .right select,
+.sympol {
+  cursor: pointer;
+}
+.populer .col .card .card-body .card-text .sympol {
+  font-size: 25px;
+}
